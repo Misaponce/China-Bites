@@ -1,0 +1,37 @@
+// Hero Section
+.hero {
+    overflow: hidden;
+}
+
+.c-item {
+    height: 530px
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.hero-c-indicator {
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.carousel-caption h5 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.carousel-caption button {
+    background: transparent;
+    border: 1px solid $primary-text-color;
+    color: $primary-text-color;
+    transition: $transition-time;
+}
+
+.carousel-caption button:hover {
+    background: #ffffff3e;
+}

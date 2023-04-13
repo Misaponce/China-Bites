@@ -1,0 +1,32 @@
+// product section
+.products-section {
+    overflow: hidden;
+    background: #ededed;
+    color: black;
+}
+
+.menu-header {
+    font-family: 'Playfair Display SC', serif;
+}
+
+// middle line
+.middle_line {
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #0a0a0a;
+}
+
+.picture-container {
+    width: 120px;
+    height: 140px;
+
+    & img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.card-body small {
+    color: $secondary-color;
+}

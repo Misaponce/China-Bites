@@ -1,0 +1,42 @@
+// Nav
+
+.header-container {
+    background-color: rgb(18, 18, 18);
+    // height: 50%;
+}
+
+.nav-link a {
+    color: $primary-text-color;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1rem;
+    transition: $transition-time;
+}
+
+.logo h2 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.logo span {
+    color: gold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;
+}
+
+// middle line
+.middle-line {
+    content: "";
+    height: 1px;
+    width: 80%;
+    background-color: #dddddd3a;
+}
+
+ul:hover li a {
+    color: #fff;
+}
+
+ul:hover li a:not(:hover) {
+    opacity: 0.3;
+    filter: blur(1px);
+}

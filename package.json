@@ -1,0 +1,16 @@
+{
+  "name": "bs-and-sass-project",
+  "version": "1.0.0",
+  "description": "This projects is made with Bootstrap 5 and SASS with the intention of improve skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Misael Ponce",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "material-icons": "^1.13.1"
+  }
+}
